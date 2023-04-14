@@ -1,0 +1,30 @@
+{
+  "name": "a02-functions-abearendsunc",
+  "version": "1.0.0",
+  "description": "Assignment 2",
+  "main": "index.js",
+  "type": "module",
+
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a02-functions-AbeArendsUNC.git"
+  },
+  "author": "Abe Arends",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a02-functions-AbeArendsUNC/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a02-functions-AbeArendsUNC#readme",
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "moment-timezone": "^0.5.43",
+    "node-fetch": "^3.3.1"
+  },
+  "bin": {
+    "galosh.js": "./cli.js"
+  }
+  
+}
